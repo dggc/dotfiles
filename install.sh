@@ -8,10 +8,13 @@ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89
 sudo apt-get update -y
 sudo apt-get dist-upgrade -y
 sudo apt-get install vim git-core stow -y
+sudo apt-get install indicator-multiload -y
 sudo apt-get install terminator -y
 sudo apt-get install compizconfig-settings-manager -y
 sudo apt-get install openjdk-${JDK_VERSION}-jdk -y
 sudo apt-get install sbt -y
+sudo apt-get install python3-venv -y
+sudo apt-get install -y gparted
 
 #Node.js
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
