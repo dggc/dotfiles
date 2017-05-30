@@ -17,13 +17,14 @@ sudo apt-get install sbt -y
 sudo apt-get install python3-venv -y
 sudo apt-get install -y gparted
 sudo apt-get install -y python-gpgme
+sudo apt-get install -y synergy
 
 #Node.js
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
 #Docker
-sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+sudo apt-get install apt-transport-https ca-certificates curl software-properties-common -y
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 sudo apt-get update
