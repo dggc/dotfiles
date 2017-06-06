@@ -15,6 +15,7 @@ sudo apt-get install openjdk-${JDK_VERSION}-jdk -y
 sudo apt-get install sbt -y
 sudo apt-get install python3-venv -y
 sudo apt-get install -y gparted
+sudo apt-get install -y python-gpgme
 
 #Node.js
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
