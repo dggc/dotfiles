@@ -8,6 +8,7 @@ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89
 sudo apt-get update -y
 sudo apt-get dist-upgrade -y
 sudo apt-get install vim git-core stow -y
+sudo apt-get install gitk git-flow -y
 sudo apt-get install indicator-multiload -y
 sudo apt-get install terminator -y
 sudo apt-get install compizconfig-settings-manager -y
